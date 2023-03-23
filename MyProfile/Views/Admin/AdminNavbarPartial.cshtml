@@ -1,0 +1,67 @@
+﻿<nav class="sidebar sidebar-offcanvas" id="sidebar">
+    <ul class="nav">
+        <br />
+        <li class="nav-item">
+            <a class="nav-link" href="/Dashboard/Index">
+                <span class="menu-title">Dashboard</span>
+                <i class="mdi mdi-home menu-icon"></i>
+            </a>
+        </li>
+
+        <li class="nav-item">
+            <a class="nav-link" href="/Category/">
+                <span class="menu-title">Kategoriler</span>
+                <i class="mdi mdi-contacts menu-icon"></i>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="/Project/">
+                <span class="menu-title">Projelerim</span>
+                <i class="mdi mdi-format-list-bulleted menu-icon"></i>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="/Blog/BlogAdd">
+                <span class="menu-title">Yeni Blog</span>
+                <i class="mdi mdi-chart-bar menu-icon"></i>
+            </a>
+        </li>
+
+        <li class="nav-item">
+            <a class="nav-link" href="/Contact/ContactMessages">
+                <span class="menu-title">Mesajlar</span>
+                <i class="mdi mdi-message menu-icon"></i>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="/NewsLetter/AllSubscribers">
+                <span class="menu-title">Abonelerimiz</span>
+                <i class="mdi mdi-bell menu-icon"></i>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="/Blog/Index">
+                <span class="menu-title">Siteyi Görüntüle</span>
+                <i class="mdi mdi-car menu-icon"></i>
+            </a>
+        </li>
+        @*   <li class="nav-item">
+        <a class="nav-link" href="/Writer/WriterEditProfile">
+        <span class="menu-title">Ayarlar</span>
+        <i class="mdi mdi-settings menu-icon"></i>
+        </a>
+        </li>*@
+        <li class="nav-item">
+            <form method="post" asp-controller="Logout" asp-action="Logout" class="nav-link">
+                <button type="submit" class="btn btn-block btn-lg btn-gradient-primary mt-4">
+                    <i class="mdi mdi-logout-variant mr-2"></i>Çıkış Yap
+                </button>
+            </form>
+        </li>
+
+
+
+
+
+    </ul>
+</nav>

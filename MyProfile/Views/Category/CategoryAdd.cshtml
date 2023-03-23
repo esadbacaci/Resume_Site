@@ -1,0 +1,13 @@
+﻿
+@{
+    ViewData["Title"] = "CategoryAdd";
+    Layout = "~/Views/Shared/AdminLayout.cshtml";
+}
+
+<form method="post" action="/Category/CategoryAdd">
+    <div class="form-group">
+        <label for="CategoryName">Kategori Adı:</label>
+        <input type="text" class="form-control" id="CategoryName" name="CategoryName" />
+    </div>
+    <button type="submit" class="btn btn-primary">Ekle</button>
+</form>

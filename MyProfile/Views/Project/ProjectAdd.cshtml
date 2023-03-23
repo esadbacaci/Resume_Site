@@ -1,0 +1,33 @@
+﻿
+@{
+    ViewData["Title"] = "ProjectAdd";
+    Layout = "~/Views/Shared/AdminLayout.cshtml";
+}
+
+<form method="post" action="/Project/ProjectAdd" enctype="multipart/form-data">
+    <div class="form-group">
+        <label for="ProjectName">Proje Adı:</label>
+        <input type="text" class="form-control" id="ProjectName" name="ProjectName" />
+
+        <label for="ProjectDescription">Proje Açıklaması:</label>
+        <input type="text" class="form-control" id="ProjectDescription" name="ProjectDescription" />
+
+
+        <label for="CategoryID">Blog Kategori:</label>
+        <select id="CategoryID" name="CategoryID" class="form-control">
+            @foreach (var item in ViewBag.cv)
+            {
+                <option value="@item.Value">@item.Text</option>
+            }
+        </select>
+
+        <label for="ProjectURL">Proje URL:</label>
+        <input type="text" class="form-control" id="ProjectURL" name="ProjectURL" />
+
+        <label for="ProjectImage">Proje Resmi:</label>
+        <input type="file" class="form-control-file" id="ProjectImage" name="ProjectImage" accept="image/*">
+
+    </div>
+    <button type="submit" class="btn btn-primary">Ekle</button>
+</form>
+
