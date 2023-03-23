@@ -1,2 +1,2 @@
 # Resume_Site
-personal web site
+personal web site (asp.net core mvc project)
