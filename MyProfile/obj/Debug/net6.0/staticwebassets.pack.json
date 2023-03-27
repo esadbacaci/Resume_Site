@@ -1045,6 +1045,14 @@
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
+      "Id": "C:\\Users\\bcces\\Desktop\\MyProfile\\MyProfile\\wwwroot\\dist\\index.html",
+      "PackagePath": "staticwebassets\\dist\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\bcces\\Desktop\\MyProfile\\MyProfile\\wwwroot\\dist\\style.css",
+      "PackagePath": "staticwebassets\\dist\\style.css"
+    },
+    {
       "Id": "C:\\Users\\bcces\\Desktop\\MyProfile\\MyProfile\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
@@ -1055,6 +1063,10 @@
     {
       "Id": "C:\\Users\\bcces\\Desktop\\MyProfile\\MyProfile\\wwwroot\\images\\71c9d0d1-2512-4dbf-8047-26665376a8f8.jpg",
       "PackagePath": "staticwebassets\\images\\71c9d0d1-2512-4dbf-8047-26665376a8f8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bcces\\Desktop\\MyProfile\\MyProfile\\wwwroot\\images\\74f11004-b419-4723-8a47-5601cc724b3f.jfif",
+      "PackagePath": "staticwebassets\\images\\74f11004-b419-4723-8a47-5601cc724b3f.jfif"
     },
     {
       "Id": "C:\\Users\\bcces\\Desktop\\MyProfile\\MyProfile\\wwwroot\\images\\84f2ec79-404c-4ace-b3f4-666c91c47d57.jfif",

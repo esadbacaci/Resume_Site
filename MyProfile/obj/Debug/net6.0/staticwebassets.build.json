@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "HPsib/CjYhtfXRt+DoatC/4SWOqwO3e5cojc5ZP06PQ=",
+  "Hash": "8ATuvybO9jTX9R/mEczkGGG8XyHQvbDU4lYBX5VUQI4=",
   "Source": "MyProfile",
   "BasePath": "_content/MyProfile",
   "Mode": "Default",
@@ -4471,6 +4471,40 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
+      "Identity": "C:\\Users\\bcces\\Desktop\\MyProfile\\MyProfile\\wwwroot\\dist\\index.html",
+      "SourceId": "MyProfile",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\bcces\\Desktop\\MyProfile\\MyProfile\\wwwroot\\",
+      "BasePath": "_content/MyProfile",
+      "RelativePath": "dist/index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\dist\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\bcces\\Desktop\\MyProfile\\MyProfile\\wwwroot\\dist\\style.css",
+      "SourceId": "MyProfile",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\bcces\\Desktop\\MyProfile\\MyProfile\\wwwroot\\",
+      "BasePath": "_content/MyProfile",
+      "RelativePath": "dist/style.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\dist\\style.css"
+    },
+    {
       "Identity": "C:\\Users\\bcces\\Desktop\\MyProfile\\MyProfile\\wwwroot\\favicon.ico",
       "SourceId": "MyProfile",
       "SourceType": "Discovered",
@@ -4520,6 +4554,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\71c9d0d1-2512-4dbf-8047-26665376a8f8.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\bcces\\Desktop\\MyProfile\\MyProfile\\wwwroot\\images\\74f11004-b419-4723-8a47-5601cc724b3f.jfif",
+      "SourceId": "MyProfile",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\bcces\\Desktop\\MyProfile\\MyProfile\\wwwroot\\",
+      "BasePath": "_content/MyProfile",
+      "RelativePath": "images/74f11004-b419-4723-8a47-5601cc724b3f.jfif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\74f11004-b419-4723-8a47-5601cc724b3f.jfif"
     },
     {
       "Identity": "C:\\Users\\bcces\\Desktop\\MyProfile\\MyProfile\\wwwroot\\images\\84f2ec79-404c-4ace-b3f4-666c91c47d57.jfif",

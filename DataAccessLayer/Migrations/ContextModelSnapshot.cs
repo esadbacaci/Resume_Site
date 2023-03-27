@@ -39,6 +39,27 @@ namespace DataAccessLayer.Migrations
                     b.ToTable("Categories");
                 });
 
+            modelBuilder.Entity("EntityLayer.Concrete.Director", b =>
+                {
+                    b.Property<int>("DirectorID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("DirectorID"), 1L, 1);
+
+                    b.Property<string>("DirectorName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("DirectorPassword")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("DirectorID");
+
+                    b.ToTable("Directors");
+                });
+
             modelBuilder.Entity("EntityLayer.Concrete.Project", b =>
                 {
                     b.Property<int>("ProjectID")

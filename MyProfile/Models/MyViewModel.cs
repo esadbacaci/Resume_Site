@@ -8,5 +8,7 @@ namespace MyProfile.Models
         public IEnumerable<Project> Projects { get; set; }
         public Category Category { get; set; }
         public IEnumerable<Category> Categories { get; set; }
+
+
     }
 }
