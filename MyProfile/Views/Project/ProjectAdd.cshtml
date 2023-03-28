@@ -26,6 +26,7 @@
 
         <label for="ProjectImage">Proje Resmi:</label>
         <input type="file" class="form-control-file" id="ProjectImage" name="ProjectImage" accept="image/*">
+        <input type="hidden" name="ProjectDate" value="@DateTime.Now.ToString()" />
 
     </div>
     <button type="submit" class="btn btn-primary">Ekle</button>

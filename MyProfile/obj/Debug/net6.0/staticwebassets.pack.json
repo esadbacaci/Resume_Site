@@ -625,6 +625,10 @@
       "PackagePath": "staticwebassets\\assets\\css\\style.css"
     },
     {
+      "Id": "C:\\Users\\bcces\\Desktop\\MyProfile\\MyProfile\\wwwroot\\assets\\cv\\CV - Muhammed Esad Bacacı.pdf",
+      "PackagePath": "staticwebassets\\assets\\cv\\CV - Muhammed Esad Bacacı.pdf"
+    },
+    {
       "Id": "C:\\Users\\bcces\\Desktop\\MyProfile\\MyProfile\\wwwroot\\assets\\img\\apple-touch-icon.png",
       "PackagePath": "staticwebassets\\assets\\img\\apple-touch-icon.png"
     },
@@ -1071,6 +1075,14 @@
     {
       "Id": "C:\\Users\\bcces\\Desktop\\MyProfile\\MyProfile\\wwwroot\\images\\84f2ec79-404c-4ace-b3f4-666c91c47d57.jfif",
       "PackagePath": "staticwebassets\\images\\84f2ec79-404c-4ace-b3f4-666c91c47d57.jfif"
+    },
+    {
+      "Id": "C:\\Users\\bcces\\Desktop\\MyProfile\\MyProfile\\wwwroot\\images\\85f7c43c-923c-4eaf-b651-edcb68c06b98.jpg",
+      "PackagePath": "staticwebassets\\images\\85f7c43c-923c-4eaf-b651-edcb68c06b98.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bcces\\Desktop\\MyProfile\\MyProfile\\wwwroot\\images\\8a820587-a6ca-491a-b12e-e2ffa38643c0.jpg",
+      "PackagePath": "staticwebassets\\images\\8a820587-a6ca-491a-b12e-e2ffa38643c0.jpg"
     },
     {
       "Id": "C:\\Users\\bcces\\Desktop\\MyProfile\\MyProfile\\wwwroot\\images\\9534a4f1-edf4-4a17-8614-f7ce48ccac01.jpg",

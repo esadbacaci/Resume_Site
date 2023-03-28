@@ -32,6 +32,8 @@ namespace MyProfile.Controllers.Admin
         [HttpPost]
 		public IActionResult ProjectAdd(Project p, IFormFile ProjectImage)
 		{
+           
+
             if (ProjectImage != null && ProjectImage.Length > 0)
             {
                 // dosya adı ve uzantısı
@@ -55,6 +57,10 @@ namespace MyProfile.Controllers.Admin
                 p.ProjectImage = "/images/" + newFileName;
             }
 
+            var projectDate = DateTime.Parse(Request.Form["ProjectDate"]);
+
+            // Set the project date property
+            p.ProjectDate = projectDate;
             pm.TAdd(p);
 			return RedirectToAction("Index", "Dashboard");
 
@@ -66,6 +72,7 @@ namespace MyProfile.Controllers.Admin
             return RedirectToAction("Index");
         }
 
+        [AllowAnonymous]
         public IActionResult ProjectDetails(int id)
         {
             ViewBag.i = id;

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "8ATuvybO9jTX9R/mEczkGGG8XyHQvbDU4lYBX5VUQI4=",
+  "Hash": "MtW3VcEoctCXFmeamR3iUvj6kJtMaSXSrHUF7HV4pwc=",
   "Source": "MyProfile",
   "BasePath": "_content/MyProfile",
   "Mode": "Default",
@@ -2686,6 +2686,23 @@
       "OriginalItemSpec": "wwwroot\\assets\\css\\style.css"
     },
     {
+      "Identity": "C:\\Users\\bcces\\Desktop\\MyProfile\\MyProfile\\wwwroot\\assets\\cv\\CV - Muhammed Esad Bacacı.pdf",
+      "SourceId": "MyProfile",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\bcces\\Desktop\\MyProfile\\MyProfile\\wwwroot\\",
+      "BasePath": "_content/MyProfile",
+      "RelativePath": "assets/cv/CV - Muhammed Esad Bacacı.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\cv\\CV - Muhammed Esad Bacacı.pdf"
+    },
+    {
       "Identity": "C:\\Users\\bcces\\Desktop\\MyProfile\\MyProfile\\wwwroot\\assets\\img\\apple-touch-icon.png",
       "SourceId": "MyProfile",
       "SourceType": "Discovered",
@@ -4588,6 +4605,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\84f2ec79-404c-4ace-b3f4-666c91c47d57.jfif"
+    },
+    {
+      "Identity": "C:\\Users\\bcces\\Desktop\\MyProfile\\MyProfile\\wwwroot\\images\\85f7c43c-923c-4eaf-b651-edcb68c06b98.jpg",
+      "SourceId": "MyProfile",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\bcces\\Desktop\\MyProfile\\MyProfile\\wwwroot\\",
+      "BasePath": "_content/MyProfile",
+      "RelativePath": "images/85f7c43c-923c-4eaf-b651-edcb68c06b98.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\85f7c43c-923c-4eaf-b651-edcb68c06b98.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\bcces\\Desktop\\MyProfile\\MyProfile\\wwwroot\\images\\8a820587-a6ca-491a-b12e-e2ffa38643c0.jpg",
+      "SourceId": "MyProfile",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\bcces\\Desktop\\MyProfile\\MyProfile\\wwwroot\\",
+      "BasePath": "_content/MyProfile",
+      "RelativePath": "images/8a820587-a6ca-491a-b12e-e2ffa38643c0.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\8a820587-a6ca-491a-b12e-e2ffa38643c0.jpg"
     },
     {
       "Identity": "C:\\Users\\bcces\\Desktop\\MyProfile\\MyProfile\\wwwroot\\images\\9534a4f1-edf4-4a17-8614-f7ce48ccac01.jpg",
