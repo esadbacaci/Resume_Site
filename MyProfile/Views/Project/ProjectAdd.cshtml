@@ -13,7 +13,7 @@
         <input type="text" class="form-control" id="ProjectDescription" name="ProjectDescription" />
 
 
-        <label for="CategoryID">Blog Kategori:</label>
+        <label for="CategoryID">Proje Kategori:</label>
         <select id="CategoryID" name="CategoryID" class="form-control">
             @foreach (var item in ViewBag.cv)
             {
@@ -26,7 +26,7 @@
 
         <label for="ProjectImage">Proje Resmi:</label>
         <input type="file" class="form-control-file" id="ProjectImage" name="ProjectImage" accept="image/*">
-        <input type="hidden" name="ProjectDate" value="@DateTime.Now.ToString()" />
+        <input type="hidden" name="ProjectDate" value="@DateTime.Now.ToShortDateString()" />
 
     </div>
     <button type="submit" class="btn btn-primary">Ekle</button>

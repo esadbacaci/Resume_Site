@@ -65,10 +65,29 @@ namespace MyProfile.Controllers.Admin
 			return RedirectToAction("Index", "Dashboard");
 
 		}
+        //public IActionResult ProjectDelete(int id)
+        //{
+        //    var value = pm.TGetById(id);
+        //    pm.TDelete(value);
+        //    return RedirectToAction("Index");
+        //}
         public IActionResult ProjectDelete(int id)
         {
-            var value = pm.TGetById(id);
-            pm.TDelete(value);
+            var project = pm.TGetById(id);
+
+            // Görsel dosya yolu
+            string imagePath = $"~/images/{project.ProjectImage}";
+
+            // Görsel dosyasını sil
+            if (System.IO.File.Exists(imagePath))
+            {
+                System.IO.File.Delete(imagePath);
+
+            }
+
+            // Projeyi sil
+            pm.TDelete(project);
+
             return RedirectToAction("Index");
         }
 
@@ -79,6 +98,51 @@ namespace MyProfile.Controllers.Admin
             var values = pm.GetList(); // retrieve a collection of projects
             var project = values.FirstOrDefault(p => p.ProjectID == id); // retrieve the project with the specified id
             return View(new List<Project> { project }); // pass a list containing a single project to the view
+        }
+
+
+        [HttpGet]
+        public IActionResult ProjectEdit(int id)
+
+        {
+
+            var projectvalue = pm.TGetById(id);
+            List<SelectListItem> categoryvalues = (from x in cm.GetList() select new SelectListItem { Text = x.CategoryName, Value = x.CategoryID.ToString() }).ToList();
+            ViewBag.cv = categoryvalues;
+
+            return View(projectvalue);
+        }
+        [HttpPost]
+        public IActionResult ProjectEdit(Project p, IFormFile ProjectImage)
+        {
+
+
+            if (ProjectImage != null && ProjectImage.Length > 0)
+            {
+                // dosya adı ve uzantısı
+                var fileName = Path.GetFileName(ProjectImage.FileName);
+                var fileExtension = Path.GetExtension(fileName);
+
+                // dosya adı değiştirme
+                var newFileName = Guid.NewGuid() + fileExtension;
+
+                // dosya kaydedilme yolu
+                var location = Directory.GetCurrentDirectory();
+                var path = Path.Combine(location, "wwwroot/images/", newFileName);
+
+                // dosyayı kaydetme
+                using (var stream = new FileStream(path, FileMode.Create))
+                {
+                    ProjectImage.CopyTo(stream);
+                }
+
+                // veritabanına kaydetme
+                p.ProjectImage = "/images/" + newFileName;
+            }
+			p.ProjectDate = DateTime.Parse(DateTime.Now.ToShortDateString());
+			
+			pm.TAdd(p);
+            return RedirectToAction("Index", "Dashboard");
         }
 
     }

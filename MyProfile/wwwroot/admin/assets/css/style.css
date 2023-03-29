@@ -12484,8 +12484,9 @@ select.form-control {
       outline: 1px solid #3e4b5b; }
 
 .form-group label {
+  font-family:ubuntu-bold;
   font-size: 0.875rem;
-  line-height: 1;
+  line-height: 2;
   vertical-align: top;
   margin-bottom: .5rem; }
 

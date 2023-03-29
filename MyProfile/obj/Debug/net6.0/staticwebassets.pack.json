@@ -625,10 +625,6 @@
       "PackagePath": "staticwebassets\\assets\\css\\style.css"
     },
     {
-      "Id": "C:\\Users\\bcces\\Desktop\\MyProfile\\MyProfile\\wwwroot\\assets\\cv\\CV - Muhammed Esad Bacacı.pdf",
-      "PackagePath": "staticwebassets\\assets\\cv\\CV - Muhammed Esad Bacacı.pdf"
-    },
-    {
       "Id": "C:\\Users\\bcces\\Desktop\\MyProfile\\MyProfile\\wwwroot\\assets\\img\\apple-touch-icon.png",
       "PackagePath": "staticwebassets\\assets\\img\\apple-touch-icon.png"
     },
@@ -1061,36 +1057,8 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\bcces\\Desktop\\MyProfile\\MyProfile\\wwwroot\\images\\41907681-f775-48ce-a9bf-c6447aab1909.jpg",
-      "PackagePath": "staticwebassets\\images\\41907681-f775-48ce-a9bf-c6447aab1909.jpg"
-    },
-    {
-      "Id": "C:\\Users\\bcces\\Desktop\\MyProfile\\MyProfile\\wwwroot\\images\\71c9d0d1-2512-4dbf-8047-26665376a8f8.jpg",
-      "PackagePath": "staticwebassets\\images\\71c9d0d1-2512-4dbf-8047-26665376a8f8.jpg"
-    },
-    {
-      "Id": "C:\\Users\\bcces\\Desktop\\MyProfile\\MyProfile\\wwwroot\\images\\74f11004-b419-4723-8a47-5601cc724b3f.jfif",
-      "PackagePath": "staticwebassets\\images\\74f11004-b419-4723-8a47-5601cc724b3f.jfif"
-    },
-    {
-      "Id": "C:\\Users\\bcces\\Desktop\\MyProfile\\MyProfile\\wwwroot\\images\\84f2ec79-404c-4ace-b3f4-666c91c47d57.jfif",
-      "PackagePath": "staticwebassets\\images\\84f2ec79-404c-4ace-b3f4-666c91c47d57.jfif"
-    },
-    {
-      "Id": "C:\\Users\\bcces\\Desktop\\MyProfile\\MyProfile\\wwwroot\\images\\85f7c43c-923c-4eaf-b651-edcb68c06b98.jpg",
-      "PackagePath": "staticwebassets\\images\\85f7c43c-923c-4eaf-b651-edcb68c06b98.jpg"
-    },
-    {
-      "Id": "C:\\Users\\bcces\\Desktop\\MyProfile\\MyProfile\\wwwroot\\images\\8a820587-a6ca-491a-b12e-e2ffa38643c0.jpg",
-      "PackagePath": "staticwebassets\\images\\8a820587-a6ca-491a-b12e-e2ffa38643c0.jpg"
-    },
-    {
-      "Id": "C:\\Users\\bcces\\Desktop\\MyProfile\\MyProfile\\wwwroot\\images\\9534a4f1-edf4-4a17-8614-f7ce48ccac01.jpg",
-      "PackagePath": "staticwebassets\\images\\9534a4f1-edf4-4a17-8614-f7ce48ccac01.jpg"
-    },
-    {
-      "Id": "C:\\Users\\bcces\\Desktop\\MyProfile\\MyProfile\\wwwroot\\images\\f217586c-1128-43c7-9233-9271476d2671.jfif",
-      "PackagePath": "staticwebassets\\images\\f217586c-1128-43c7-9233-9271476d2671.jfif"
+      "Id": "C:\\Users\\bcces\\Desktop\\MyProfile\\MyProfile\\wwwroot\\images\\bf701edf-6a33-4367-a8aa-f4069ac29f07.jpg",
+      "PackagePath": "staticwebassets\\images\\bf701edf-6a33-4367-a8aa-f4069ac29f07.jpg"
     },
     {
       "Id": "C:\\Users\\bcces\\Desktop\\MyProfile\\MyProfile\\wwwroot\\js\\site.js",
